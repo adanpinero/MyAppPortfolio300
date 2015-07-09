@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivityFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/MyNanoDegreeApps"
+        android:id="@+id/textView"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="28dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/moviePlayerButton"
+        android:id="@+id/moviePlayerButton"
+        android:layout_weight="1"
+        android:onClick="movieAppButtonCLick"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/scoresAppButton"
+        android:id="@+id/scoresAppButton"
+        android:layout_weight="1"
+        android:onClick="scoresAppButtonCLick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/libraryAppButton"
+        android:id="@+id/libraryAppButton"
+        android:layout_weight="1"
+        android:onClick="libraryAppButtonCLick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/buildItBiggerButton"
+        android:id="@+id/buildItBiggerButton"
+        android:layout_weight="1"
+        android:onClick="buildItBiggerAppButtonCLick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/xyzReaderButton"
+        android:id="@+id/xyzReaderButton"
+        android:layout_weight="1"
+        android:onClick="xyzReaderButtonCLick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/capstoneButton"
+        android:id="@+id/capstoneButton"
+        android:layout_weight="1"
+        android:onClick="capstoneButtonCLick" />
+</LinearLayout>
+
